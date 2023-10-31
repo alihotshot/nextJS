@@ -5,7 +5,7 @@ const Footer = () => {
             <div>
                 <h2 className="font-bold text-xl">Verge Future</h2>
             </div>
-            <ul className="flex">
+            <ul className="flex space-x-8">
                 <li>About</li>
                 <li>Contact</li>
                 <li>Privacy Policy</li>
