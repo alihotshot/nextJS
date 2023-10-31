@@ -1,9 +1,9 @@
 
 const Footer = () => {
     return (
-        <footer className="flex justify-between max-w-screen-xl mx-auto my-5">
+        <footer className="flex justify-between max-w-screen-xl mx-auto my-5 bg-blue-400">
             <div>
-                <h2 className="font-bold text-2xl">Verge Future</h2>
+                <h2 className="font-bold text-xl">Verge Future</h2>
             </div>
             <ul className="flex">
                 <li>About</li>
