@@ -1,14 +1,13 @@
 
 const Footer = () => {
     return (
-        <footer className="flex justify-between max-w-screen-xl mx-auto my-5 bg-blue-400">
+        <footer className="flex justify-between bg-blue-400 my-5 py-6 px-5 max-w-screen-xl mx-auto">
             <div>
-                <h2 className="font-bold text-xl">Verge Future</h2>
+                <h2 className="text-xl font-bold">Verge Future</h2>
             </div>
-            <ul className="flex space-x-8">
-                <li>About</li>
-                <li>Contact</li>
-                <li>Privacy Policy</li>
+            <ul className="flex space-x-8 font-semibold">
+                <li>ABOUT</li>
+                <li>CONTACT</li>
             </ul>
         </footer>
     )
