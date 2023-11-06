@@ -1,18 +1,27 @@
+import Link from "next/link"
 import Logo from "/public/logo.svg"
 import Image from "next/image"
+import Wrapper from "@/app/components/shared/Wrapper"
 
 const Header = () => {
   return (
-    <header className="flex justify-between max-w-screen-xl mx-auto py-6 px-2 bg-m">
-      <div>
-        {/* <h2 className="text-xl font-bold">Verge Future</h2> */}
-        <Image src={Logo} alt="Verge Future Logo" />
-      </div>
-      <ul className="flex space-x-8 font-semibold py-6">
-        <li>Home</li>
-        <li>Courses</li>
-      </ul>
-    </header>
+    <Wrapper>
+      <header className="flex justify-between py-6 px-2 bg-m">
+        <div>
+          <Link href={"/"}>
+            <Image src={Logo} alt="Verge Future Logo" />
+          </Link>
+        </div>
+        <ul className="flex space-x-8 font-semibold py-6">
+          <li>
+            <Link href={"/"}>Home</Link>
+          </li>
+          <li>
+            <Link href={"/courses"}>Courses</Link>
+          </li>
+        </ul>
+      </header >
+    </Wrapper>
   )
 }
 

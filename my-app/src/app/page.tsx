@@ -1,7 +1,10 @@
+import Hero from "@/app/components/widgets/Hero"
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Hero />
+    </div>
   )
 }
 
