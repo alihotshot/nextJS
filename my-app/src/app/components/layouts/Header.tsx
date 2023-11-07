@@ -6,7 +6,7 @@ import Wrapper from "@/app/components/shared/Wrapper"
 const Header = () => {
   return (
     <Wrapper>
-      <header className="flex justify-between py-6 px-2 bg-m">
+      {/* <header className="flex justify-between py-6 px-2 bg-m">
         <div>
           <Link href={"/"}>
             <Image src={Logo} alt="Verge Future Logo" />
@@ -20,7 +20,7 @@ const Header = () => {
             <Link href={"/courses"}>Courses</Link>
           </li>
         </ul>
-      </header >
+      </header > */}
     </Wrapper>
   )
 }
